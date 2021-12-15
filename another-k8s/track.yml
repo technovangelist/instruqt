@@ -1,0 +1,16 @@
+slug: another-k8s
+type: track
+title: another k8s
+teaser: A short description of the track.
+description: |-
+  A long description of the track.
+
+  You can use any GitHub flavoured markdown.
+icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/default.png
+tags: []
+owner: datadog
+developers:
+- matt.williams@datadoghq.com
+private: false
+published: false
+checksum: "5136853590189914095"

@@ -1,0 +1,8 @@
+version: "3"
+containers:
+  - name: main
+    image: mbentley/k0s
+    shell: /bin/sh
+    memory: 256
+    ports:
+      - 6443

@@ -1,0 +1,5 @@
+version: "3"
+virtualmachines:
+- name: asht2
+  image: datadog-community/bddbase2
+  machine_type: n1-standard-1
