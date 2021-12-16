@@ -12,6 +12,11 @@ do
     sleep 1 
 done
 
+git clone https://github.com/DataDog/ecommerce-workshop.git /root/workshop
+cd /root/workshop
+rm -rf .git
+
+
 # Enable bash completion for kubectl
 echo "source /usr/share/bash-completion/bash_completion" >> /root/.bashrc
 echo "complete -F __start_kubectl k" >> /root/.bashrc
