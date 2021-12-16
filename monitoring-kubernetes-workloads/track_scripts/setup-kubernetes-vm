@@ -16,6 +16,13 @@ git clone https://github.com/DataDog/ecommerce-workshop.git /root/workshop
 cd /root/workshop
 rm -rf .git
 
+mkdir -p /root/assets
+cd /root/assets
+curl https://codeload.github.com/technovangelist/instruqt/zip/refs/heads/main
+unzip main.zip
+mv instruqt-main/monitoring-kubernetes-workloads/assets/* .
+rm -rf instruqt-main
+
 
 # Enable bash completion for kubectl
 echo "source /usr/share/bash-completion/bash_completion" >> /root/.bashrc
